@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Servicios Digitales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+
+        <header>
+        <h1>Catálogo de Servicios Digitales</h1>
+
+        <button id="modoBtn" class="btn btn-dark">
+Modo oscuro
+</button>
+        </header>
+
+<br><br>
+
+    <section id="uno">
+
+<div class="card" style="width: 18rem;">
+  <img src="imgs/desarrollo.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Desarrollo Web</h5>
+    <p class="card-text">Creación de páginas web profesionales</p>
+    <button class="btn btn-primary" onclick="solicitarServicio()">
+Solicitar servicio
+</button>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="imgs/marketing.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Marketing Digital</h5>
+    <p class="card-text">Campañas de marketing online</p>
+    <button class="btn btn-primary" onclick="solicitarServicio()">
+Solicitar servicio
+</button>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="imgs/hosting.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Hosting</h5>
+    <p class="card-text">Servicio de hosting online</p>
+    <button class="btn btn-primary" onclick="solicitarServicio()">
+Solicitar servicio
+</button>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="imgs/Diferencia-UX-UI.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Diseño UX/UI</h5>
+    <p class="card-text">Asesorías de diseño UX/UI</p>
+    <button class="btn btn-primary" onclick="solicitarServicio()">
+Solicitar servicio
+</button>
+  </div>
+</div>
+
+</section>
+
+<section id="dos">
+
+<div class="card" style="width: 18rem;">
+  <img src="imgs/seo.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">SEO</h5>
+    <p class="card-text">Search Engine Optimization</p>
+    <button class="btn btn-primary" onclick="solicitarServicio()">
+Solicitar servicio
+</button>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="imgs/desarrollo.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Desarrollo móvil</h5>
+    <p class="card-text">Describe los procesos y procedimientos necesarios para programar el software</p>
+    <button class="btn btn-primary" onclick="solicitarServicio()">
+Solicitar servicio
+</button>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="imgs/soporte.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Soporte tecnico</h5>
+    <p class="card-text">Describe los procesos y procedimientos necesarios para programar el software</p>
+    <button class="btn btn-primary" onclick="solicitarServicio()">
+Solicitar servicio
+</button>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="imgs/consultoria.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Consultoria tecnologica</h5>
+    <p class="card-text">Describe los procesos y procedimientos necesarios para programar el software</p>
+    <button class="btn btn-primary" onclick="solicitarServicio()">
+Solicitar servicio
+</button>
+  </div>
+</div>
+
+</section>
+
+
+        <h3 class="mt-5">Registro de Cliente</h3>
+
+        <form id="formulario">
+            <input type="text" id="nombre" placeholder="Nombre" class="form-control mb-2">
+            <input type="text" id="correo" placeholder="Correo" class="form-control mb-2">
+            <input type="text" id="telefono" placeholder="Teléfono" class="form-control mb-2">
+            <label for="frutas">Intereses:</label>
+            <select id="intereses" name="intereses">
+            <option value="marketing">Marketing</option>
+            <option value="programacion">Programación</option>
+            <option value="diseño">Diseño web</option></select>
+
+            <button class="btn btn-success" onclick="registrar()">
+Registrar
+</button>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

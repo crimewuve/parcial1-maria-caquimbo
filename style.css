@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #a4a4a4;
+    color: #000000;
+    padding: 25px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+    gap: 5px;
+}
+
+.formulario {
+    background: #fff;
+    margin-top: 3rem;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    min-width: 320px;
+    max-width: 400px;
+    width: 100%;
+} 
+
+.dark {
+    background: black;
+    color: white;
+}
